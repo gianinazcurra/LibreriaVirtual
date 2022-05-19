@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>LiBrErIa ViRtUaL/EdItOrIaLeS</title>
+</head>
+<body>
+    <h1 id="h1" class="container-fluid">Librería Web</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" 
+    style="background-color: #ffbf69;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bienvenid@</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Soy Administrador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Soy Cliente</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </nav>
+
+
+
+<h3><strong>Ingresar Editorial</strong></h3>
+<form action="/administracionEditorial/guardarEditorial" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+    <label for="IngresarEditorial" class="form-label">Nombre</label>
+    <input name="nombre" type="text" class="form-control" id="IngresarEditorial">
+  </div>
+  <button type="submit" class="btn btn-primary">Guardar</button>
+</form> 
+<h3><strong>Listar Editoriales</strong></h2>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Lista de Editoriales</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Editar Editorial</th>
+            <th scope="col">Eliminar Editorial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td></td>
+            <td><button type="Submit">Editar</button></td>
+            <td><button type="Submit">Eliminar</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td></td>
+            <td><button type="Submit">Editar</button></td>
+            <td><button type="Submit">Eliminar</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td></td>
+            <td><button type="Submit">Editar</button></td>
+            <td><button type="Submit">Eliminar</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+</body>
+</html>

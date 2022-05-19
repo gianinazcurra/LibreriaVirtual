@@ -1,0 +1,43 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+
+    
+}
+header{
+    padding: 20px;
+    margin-bottom: 20px;
+    
+
+
+}
+ 
+
+nav{
+    
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    
+    
+}
+
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2ec4b6;
+    font-size: 75px;
+    font-style: unset;
+    
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: #cbf3f0;
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: #ff9f1c;
+}
